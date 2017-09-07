@@ -28,5 +28,5 @@ if __name__ == "__main__":
     regression_line2 = [(m * x) + b for x in df.X]
     plt.scatter(df.X, df.Y, color='#003F72')
     plt.plot(df.X, regression_line1, color='red')
-    plt.plot(df.X, regression_line2, color='blue')
+    plt.plot(df.X, regression_line2, color='yellow')
     plt.show()
